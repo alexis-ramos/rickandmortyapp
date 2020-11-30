@@ -1,10 +1,9 @@
 import React from 'react';
+import Header from './../components/Header';
 
 const Home = () => {
   return(
-    <h1 className="my-12 bg-gray-300">
-      hola
-    </h1>
+    <Header />
   );
 };
 
