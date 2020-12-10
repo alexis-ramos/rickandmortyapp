@@ -1,5 +1,4 @@
 import React from 'react';
-import CardRickAndMortyItem from './CardRickAndMortyItem';
 import Footer from './Footer';
 import Header from './Header';
 
@@ -8,7 +7,6 @@ const Layout = ({ children }) => (
     <Header />
     {children}
     <Footer />
-    <CardRickAndMortyItem />
   </div>
 );
 
