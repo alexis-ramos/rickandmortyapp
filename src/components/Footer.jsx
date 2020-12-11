@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <ul className='mt-4 mb-4 ml-8  md:list-disc'>
+        <ul className='mt-4 ml-8  md:list-disc'>
           <li>Soporte</li>
           <li>Registro</li>
           <li>Aviso de privacidad</li>

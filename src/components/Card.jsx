@@ -4,8 +4,10 @@ const Card = ({ children }) => (
   <section>
     <div>
       <div className='row'>
-        <div className='cardTitle'>
-          <h4>Rik&Morty APP REACT</h4>
+        <div className='cardTitle text-center'>
+          <h4 className='font-bold text-2xl mt-5 mb-5 md:text-6xl'>
+            Rik&Morty API- React - Tailwind
+          </h4>
         </div>
       </div>
     </div>

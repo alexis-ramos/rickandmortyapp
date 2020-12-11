@@ -7,12 +7,12 @@ const useInitialState = (API) => {
   useEffect( () => {
     const fetchData = async () => {
       const result = await axios.get(API);
-
       setCharacters(result.data);
     };
 
     fetchData();
   }, [] );
+
   return characters;
 };
 

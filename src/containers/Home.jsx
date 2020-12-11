@@ -8,8 +8,19 @@ const API = 'https://rickandmortyapi.com/api/character';
 
 const Home = () => {
   const initialState = useInitialState(API);
-
-  console.log(initialState);
+  return initialState.length === 0 ? (
+    <div>cargando...</div>
+  ) : (
+    <div>
+      <Card>
+        <CardRickAndMorty title='cards'>
+          {initialState.results.map((item) => (
+            <CardRickAndMortyItem key={item.id} {...item} />
+          ))}
+        </CardRickAndMorty>
+      </Card>
+    </div>
+  );
 };
 
 export default Home;
