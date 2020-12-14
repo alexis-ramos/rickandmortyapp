@@ -12,7 +12,7 @@ const Card = ({ children }) => (
       </div>
     </div>
     <div>
-      <div className='row'>
+      <div className='row bg-gray-700'>
         <div className='md:flex cardItem'>{children}</div>
       </div>
     </div>
