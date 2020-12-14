@@ -1,9 +1,9 @@
 import React from 'react';
 
 const CardRickAndMorty = ({ children }) => (
-  <div id='idRickAndMorty' className=''>
+  <section id='idRickAndMorty' className='container mx-auto my-auto md:justify-items-center'>
     {children}
-  </div>
+  </section>
 );
 
 export default CardRickAndMorty;

@@ -9,29 +9,27 @@ const CardRickAndMortyItem = ({
   origin,
   location,
 }) => (
-  <div className='flex bg-red-400  mb-5'>
-    <div className='flex-none w-1/2 relative'>
+  <div className='flex rounded-xl p-3 md:inline-block md:mx-2'>
+    <div className='w-1/2 md:w-full'>
       <img
-        className='absolute inset-0 w-full h-full object-cover'
+        className='w-50 h-auto rounded-xl md:w-44 md:h-44 md:rounded-full'
         src={image}
         alt={name}
       />
     </div>
-    <div className='w-1/2 text-center'>
-      <div>
-        <h1 className='font-semibold text-white text-4xl'>{name}</h1>
-        <span className=''>
-          <span className='bg-green-600'>s</span>
-          {status} - {species}
-        </span>
-        <div className='pt-2'>
-          <p className=' text-gray-700'>Origen</p>
-          <p className='text-white'>{origin.name}</p>
-        </div>
-        <div className='pt-2'>
-          <p className=' text-gray-700'>Locacion actual</p>
-          <p className='text-white'>{location.name}</p>
-        </div>
+    <div className='text-center w-1/2 md:w-full'>
+      <h1 className=''>{name}</h1>
+      <span className=''>
+        <span className=''>s</span>
+        {status} - {species}
+      </span>
+      <div className='pt-2'>
+        <p className=''>Origen</p>
+        <p className=''>{origin.name}</p>
+      </div>
+      <div className=''>
+        <p className=''>Locacion actual</p>
+        <p className=''>{location.name}</p>
       </div>
     </div>
   </div>
