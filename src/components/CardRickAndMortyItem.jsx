@@ -22,16 +22,8 @@ const CardRickAndMortyItem = ({
       <span className=' w-3 h-3 mr-1 bg-gray-600 rounded-full'></span>
     );
   }
-
-  /* if (status === 'Alive') {
-    status = <span className=' w-3 h-3 mr-1 bg-green-600 rounded-full'></span>
-  } else if (status === 'Dead') {
-    const red = <span className=' w-3 h-3 mr-1 bg-red-600 rounded-full'></span>
-  } else {
-    const gray = <span className=' w-3 h-3 mr-1 bg-gray-600 rounded-full'></span>
-  } */
   return (
-    <div className='flex rounded-xl bg-indigo-300 m-3 md:inline-block md:mx-2'>
+    <div className='flex rounded-xl bg-indigo-300 m-3  md:inline-block md:mx-2'>
       <div className='w-1/2 md:m-1 md:w-full '>
         <img
           className='w-50 h-auto rounded-xl md:rounded-full'
