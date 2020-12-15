@@ -3,7 +3,7 @@ import React from 'react';
 const CardRickAndMorty = ({ children }) => (
   <section
     id='idRickAndMorty'
-    className='container text-center mx-auto my-auto md:justify-items-center'
+    className='container text-center mx-auto my-auto '
   >
     {children}
   </section>
