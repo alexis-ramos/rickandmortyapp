@@ -1,5 +1,4 @@
 import React from 'react';
-import Search from './Search';
 
 const Card = ({ children }) => (
   <section>
@@ -10,7 +9,6 @@ const Card = ({ children }) => (
         </h4>
       </div>
     </div>
-    <Search />
     <div>
       <div className='row bg-gray-700'>
         <div className='md:flex cardItem'>{children}</div>
