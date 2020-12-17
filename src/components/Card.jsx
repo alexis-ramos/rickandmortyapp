@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Card = ({ children }) => (
-  <section>
+  <section className=''>
     <div>
       <div className='cardTitle text-center'>
         <h4 className='font-bold text-2xl mt-5 mb-5 md:text-6xl'>
@@ -10,7 +10,7 @@ const Card = ({ children }) => (
       </div>
     </div>
     <div>
-      <div className='row bg-gray-700'>
+      <div className='bg-gray-700 pb-10'>
         <div className='md:flex cardItem'>{children}</div>
       </div>
     </div>

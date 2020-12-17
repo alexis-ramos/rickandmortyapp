@@ -33,8 +33,10 @@ const CardRickAndMortyItem = ({
           alt={name}
         />
       </div>
-      <div className='text-center h-full self-center  md:pt-3 w-1/2 md:w-full'>
-        <h1 className=' text-lg md:text-lg font-extrabold'>{name}</h1>
+      <div className=' h-full w-1/2 text-center md:h-auto md:pb-8 self-center  md:pt-3 md:w-full'>
+        <h1 className='text-lg md:w-full md:text-center font-extrabold'>
+          {name}
+        </h1>
         <span className='flex-wrap  inline-flex text-white'>
           {setStatus}
           {status} - {species}
@@ -49,6 +51,14 @@ const CardRickAndMortyItem = ({
         </div>
       </div>
     </div>
+    /* detectScrollEnd = () => {
+      const contentHeight = document.body.offsetHeight;
+      const scrollPosition = window.scrollY + window.innerHeight;
+      if (scrollPosition >= contentHeight) {
+        if (this.state.nextPage < 26) {
+          this.fetchCharacters();
+        }
+      } */
   );
 };
 
